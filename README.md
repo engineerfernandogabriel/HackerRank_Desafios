@@ -1,4 +1,4 @@
-# HakerRank Desafios
+# HackerRank Desafios
 
 ## Desafios Propostos no site HackerRank
 
