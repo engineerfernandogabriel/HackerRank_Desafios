@@ -32,5 +32,26 @@ Explanation
  The leading digit of the integer is the  character, and each integer that was less than  digits now has leading zeroes.
  */
 
+import java.io.IOException;
+import java.util.Scanner;
+
 public class E05_JavaOutputFormatting {
+
+    public static void main(String[] args) throws IOException{
+
+        Scanner input = new Scanner(System.in);
+
+        String text = input.next();
+        int number = input.nextInt();
+        String text1 = input.next();
+        int number1 = input.nextInt();
+        String text2 = input.next();
+        int number2 = input.nextInt();
+
+        System.out.println("================================");
+        System.out.printf("%s %03d\n", text, number);
+        System.out.printf("%s %03d\n", text1, number2);
+        System.out.printf("%s %03d\n", text2, number2);
+        System.out.println("================================");
+    }
 }
