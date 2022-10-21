@@ -49,9 +49,9 @@ public class E05_JavaOutputFormatting {
         int number2 = input.nextInt();
 
         System.out.println("================================");
-        System.out.printf("%s %03d\n", text, number);
-        System.out.printf("%s %03d\n", text1, number2);
-        System.out.printf("%s %03d\n", text2, number2);
+        System.out.printf("%-14s %03d\n", text, number);
+        System.out.printf("%-14s %03d\n", text1, number1);
+        System.out.printf("%-14s %03d  \n", text2, number2);
         System.out.println("================================");
     }
 }
